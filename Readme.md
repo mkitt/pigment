@@ -1,5 +1,5 @@
 # Primer
-A base Vim color scheme tuned to work with Apple's Terminal.app profiles.
+A Vim color scheme tuned to work with Apple's Terminal.app profiles.
 
 Primer.vim provides the base set of cterm mappings to construct consistent color
 profiles. Profiles are then built by changing the ANSI color swatches in
@@ -37,7 +37,7 @@ BaseGP | 15 Bright White   | White       | GUI Pop
 Primer is set up for 3 base categories.
 
 1. BaseG (GUI): Foreground, background, status bars, line highlighting etc.
-2. BaseC (Color): Individual colors mapped to Vim group names (:help group-name)
+2. BaseC (Color): Individual colors mapped to Vim group names - `:help group-name`
 3. BaseA (Alt): Alternative colors (primer.vim does not currently map these colors)
 
 ## Vim

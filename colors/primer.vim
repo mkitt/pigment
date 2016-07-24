@@ -128,7 +128,7 @@ hi def link rubyStringDelimiter     Character
 hi def link jsArrowFunction         Keyword
 hi def link jsFunction              Keyword
 hi def link jsPrototype             Keyword
-hi def link jsThis                  Keyword
+hi def link jsThis                  PreProc
 
 hi          cssAttrComma            cterm=NONE  ctermbg=NONE  ctermfg=15
 hi def link atKeyword               Include

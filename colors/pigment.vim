@@ -1,6 +1,6 @@
 hi clear
 syntax reset
-let g:colors_name = "primer"
+let g:colors_name = "pigment"
 
 " ANSI Color Mapping
 " ----------------------------------------------------------------------

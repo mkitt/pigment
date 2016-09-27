@@ -142,16 +142,6 @@ hi def link cssSelectorOp           Operator
 hi def link cssSelectorOp2          cssSelectorOp
 hi          cssURL                  cterm=underline ctermbg=NONE  ctermfg=02
 
-hi def link sassAmpersand           Identifier
-hi def link sassClassChar           sassClass
-hi def link sassControl             Conditional
-hi def link sassDebug               Debug
-hi def link sassFor                 Repeat
-hi def link sassIdChar              sassId
-hi def link sassPlaceholder         Identifier
-hi def link sassReturn              Keyword
-hi def link sassWarn                PreProc
-
 hi          htmlTag                 cterm=NONE  ctermbg=NONE  ctermfg=07
 hi def link htmlArg                 Define
 hi def link htmlBold                Ignore

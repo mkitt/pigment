@@ -80,9 +80,7 @@ hi SpellLocal         cterm=underline  ctermbg=NONE  ctermfg=NONE
 hi Comment            cterm=NONE  ctermbg=NONE  ctermfg=13
 
 hi Constant           cterm=NONE  ctermbg=NONE  ctermfg=06
-" + Number
-" + Boolean
-" + Float
+" + Number + Boolean + Float
 
 hi String             cterm=NONE  ctermbg=NONE  ctermfg=02
 hi Character          cterm=NONE  ctermbg=NONE  ctermfg=02
@@ -91,30 +89,16 @@ hi Identifier         cterm=NONE  ctermbg=NONE  ctermfg=09
 " + Function
 
 hi Statement          cterm=NONE  ctermbg=NONE  ctermfg=04
-" + Conditional
-" + Repeat
-" + Label
-" + Operator
-" + Keyword
-" + Exception
+" + Conditional + Repeat + Label + Operator + Keyword + Exception
 
 hi PreProc            cterm=NONE  ctermbg=NONE  ctermfg=03
-" + Include
-" + Define
-" + Macro
-" + PreCondit
+" + Include + Define + Macro + PreCondit
 
 hi Type               cterm=NONE  ctermbg=NONE  ctermfg=05
-" + StorageClass
-" + Structure
-" + Typedef
+" + StorageClass + Structure + Typedef
 
 hi Special            cterm=NONE  ctermbg=NONE  ctermfg=01
-" + SpecialChar
-" + SpecialComment
-" + Tag
-" + Delimiter
-" + Debug
+" + SpecialChar + SpecialComment + Tag + Delimiter + Debug
 
 hi Underlined         cterm=underline  ctermbg=NONE  ctermfg=NONE
 hi Ignore             cterm=NONE       ctermbg=NONE  ctermfg=NONE

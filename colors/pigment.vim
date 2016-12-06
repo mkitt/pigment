@@ -106,6 +106,7 @@ hi Error              cterm=NONE       ctermbg=NONE  ctermfg=01
 hi Todo               cterm=underline  ctermbg=NONE  ctermfg=01
 
 " Language Syntax Overrides
+" :echo synIDattr(synID(line("."), col("."), 1), "name")
 " ----------------------------------------------------------------------
 hi def link rubyStringDelimiter     Character
 
@@ -113,6 +114,17 @@ hi def link jsArrowFunction         Keyword
 hi def link jsFunction              Keyword
 hi def link jsPrototype             Keyword
 hi def link jsThis                  PreProc
+
+hi def link jsFlowType              Comment
+hi def link jsFlowDefinition        jsFlowType
+hi def link jsFlowTypeCustom        jsFlowType
+hi def link jsFlowArray             jsFlowType
+hi def link jsFlowObject            jsFlowType
+hi def link jsFlowGroup             jsFlowType
+hi def link jsFlowReturn            jsFlowType
+hi def link jsFlowFunctionGroup     jsFlowType
+hi def link jsFlowClassGroup        jsFlowType
+hi def link jsFlowArrowArguments    jsFlowType
 
 hi          cssAttrComma            cterm=NONE  ctermbg=NONE  ctermfg=15
 hi def link atKeyword               Include

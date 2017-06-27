@@ -37,6 +37,7 @@ hi Visual             cterm=NONE  ctermbg=00    ctermfg=NONE
 hi CursorLine         cterm=NONE  ctermbg=00    ctermfg=NONE
 hi CursorColumn       cterm=NONE  ctermbg=00    ctermfg=NONE
 hi ColorColumn        cterm=NONE  ctermbg=00    ctermfg=NONE
+hi QuickFixLine       cterm=NONE  ctermbg=00    ctermfg=NONE
 hi VertSplit          cterm=NONE  ctermbg=08    ctermfg=8
 hi StatusLine         cterm=NONE  ctermbg=08    ctermfg=14
 hi TabLineSel         cterm=NONE  ctermbg=08    ctermfg=14

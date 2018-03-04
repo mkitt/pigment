@@ -1,3 +1,5 @@
+<img src="https://mkitt.net/apple-touch-icon.png" width="80px" height="80px" />
+
 # Pigment
 A Vim color scheme tuned to work with Apple's Terminal.app profiles.
 
@@ -52,5 +54,9 @@ export CLICOLOR=1
 export LSCOLORS=excxgxfxbxdxbxbxbxexex
 ```
 
+[mkitt.net][mkitt.net] | [github/mkitt][github]
+
 <!-- Markdown links -->
 [solarized]: http://ethanschoonover.com/solarized
+[github]: https://github.com/mkitt "@mkitt"
+[mkitt.net]: https://mkitt.net "🏔"

@@ -118,9 +118,9 @@ hi def link jsFutureKeys            Constant
 hi def link jsPrototype             Keyword
 hi def link jsThis                  PreProc
 
-hi def link jsFlowArray             Statement
 hi def link jsFlowMaybe             Identifier
 hi def link jsFlowObject            Statement
+hi def link jsFlowExactObject       Statement
 
 hi          cssAttrComma            cterm=NONE  ctermbg=NONE  ctermfg=05
 hi def link atKeyword               Include

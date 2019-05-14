@@ -152,3 +152,17 @@ hi multiple_cursors_cursor  cterm=NONE  ctermbg=05  ctermfg=07
 hi def link NERDTreeClosable Identifier
 hi def link NERDTreeOpenable Identifier
 hi def link NERDTreeExecFile Special
+
+let g:fzf_colors =
+      \ { 'fg':    ['fg', 'Normal'],
+      \ 'bg':      ['bg', 'Normal'],
+      \ 'hl':      ['fg', 'Type'],
+      \ 'fg+':     ['fg', 'CursorLine', 'CursorLine', 'Comment'],
+      \ 'bg+':     ['bg', 'CursorLine', 'CursorLine'],
+      \ 'hl+':     ['fg', 'Constant'],
+      \ 'info':    ['fg', 'Constant'],
+      \ 'prompt':  ['fg', 'StatusLine'],
+      \ 'pointer': ['fg', 'PreProc'],
+      \ 'marker':  ['fg', 'PreProc'],
+      \ 'spinner': ['fg', 'PreProc'],
+      \ 'header':  ['fg', 'PreProc'] }

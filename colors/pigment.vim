@@ -28,7 +28,7 @@ let g:colors_name = "pigment"
 "
 " Set in preferences
 " GUI BG, Default Text
-"
+" :echo synIDattr(synID(line("."), col("."), 1), "name")
 
 " Editor groups [:vert help highlight-groups]
 " --------------------------------------------------------------------
@@ -106,54 +106,3 @@ hi Underlined         cterm=underline  ctermbg=NONE  ctermfg=NONE
 hi Ignore             cterm=NONE       ctermbg=NONE  ctermfg=NONE
 hi Error              cterm=NONE       ctermbg=NONE  ctermfg=01
 hi Todo               cterm=underline  ctermbg=NONE  ctermfg=01
-
-" Language Syntax Overrides
-" :echo synIDattr(synID(line("."), col("."), 1), "name")
-" ----------------------------------------------------------------------
-hi def link rubyStringDelimiter     Character
-
-hi def link jsArrowFunction         Keyword
-hi def link jsFunction              Keyword
-hi def link jsFutureKeys            Constant
-hi def link jsPrototype             Keyword
-hi def link jsThis                  PreProc
-
-hi def link jsFlowMaybe             Identifier
-hi def link jsFlowObject            Statement
-hi def link jsFlowExactObject       Statement
-
-hi          cssAttrComma            cterm=NONE  ctermbg=NONE  ctermfg=05
-hi def link atKeyword               Include
-hi def link cssAttributeSelector    PreProc
-hi def link cssBraces               Ignore
-hi def link cssClassName            Type
-hi def link cssClassNameDot         cssClassName
-hi def link cssFunctionComma        cssAttrComma
-hi def link cssProp                 Label
-hi def link cssSelectorOp           Operator
-hi def link cssSelectorOp2          cssSelectorOp
-hi          cssURL                  cterm=underline ctermbg=NONE  ctermfg=02
-
-hi def link htmlTag                 Comment
-hi def link htmlArg                 Define
-hi def link htmlBold                Ignore
-hi def link htmlBoldItalic          Ignore
-hi def link htmlEndTag              htmlTag
-hi def link htmlH1                  Statement
-hi def link htmlItalic              Ignore
-hi def link htmlSpecialTagName      PreProc
-hi def link htmlTagN                Error
-
-hi def link markdownLinkText        Identifier
-
-hi def link xmlTag                  Comment
-hi def link xmlEndTag               xmlTag
-
-" Plugins
-" ----------------------------------------------------------------------
-hi multiple_cursors_cursor          cterm=NONE  ctermbg=05  ctermfg=07
-hi def link CocDiagnosticsError     Error
-hi def link CocDiagnosticsWarning   WarningMsg
-hi def link NERDTreeClosable        Identifier
-hi def link NERDTreeOpenable        Identifier
-hi def link NERDTreeExecFile        Special

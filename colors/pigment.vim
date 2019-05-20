@@ -134,7 +134,7 @@ hi def link cssSelectorOp           Operator
 hi def link cssSelectorOp2          cssSelectorOp
 hi          cssURL                  cterm=underline ctermbg=NONE  ctermfg=02
 
-hi          htmlTag                 cterm=NONE  ctermbg=NONE  ctermfg=07
+hi def link htmlTag                 Comment
 hi def link htmlArg                 Define
 hi def link htmlBold                Ignore
 hi def link htmlBoldItalic          Ignore
@@ -145,6 +145,9 @@ hi def link htmlSpecialTagName      PreProc
 hi def link htmlTagN                Error
 
 hi def link markdownLinkText        Identifier
+
+hi def link xmlTag                  Comment
+hi def link xmlEndTag               xmlTag
 
 " Plugins
 " ----------------------------------------------------------------------

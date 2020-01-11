@@ -100,8 +100,10 @@ hi Type          cterm=NONE  ctermbg=NONE  ctermfg=04
 " + StorageClass + Structure + Typedef
 
 hi Special       cterm=NONE  ctermbg=NONE  ctermfg=05
-" + SpecialChar + SpecialComment + Tag + Debug
+" + SpecialChar + SpecialComment
 hi Delimiter     cterm=NONE  ctermbg=NONE  ctermfg=11
+hi Tag           cterm=NONE  ctermbg=NONE  ctermfg=11
+hi Debug         cterm=NONE  ctermbg=NONE  ctermfg=11
 
 hi Underlined    cterm=underline  ctermbg=NONE  ctermfg=NONE
 hi Ignore        cterm=NONE       ctermbg=NONE  ctermfg=NONE

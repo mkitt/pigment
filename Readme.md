@@ -49,6 +49,8 @@ Base08  Base09  Base10  Base11  Base12  Base13  Base14  Base15
 | Base0E | 14 Bright Cyan    | Cyan        | GUI POP        |
 | Base0F | 15 Bright White   | White       | Highlight Text |
 
+See `:vert help highlight-groups` and `:vert help group-name`
+
 ## Vim
 
 Set the color scheme in your vimrc

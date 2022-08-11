@@ -126,10 +126,13 @@ hi def link jsFlowTypeStatement   Typedef
 hi def link jsFlowTypeValue       Typedef
 
 hi def link CocErrorSign          Error
-hi def link CocWarningSign        WarningMsg
-hi def link CocInfoSign           Special
 hi def link CocHintSign           Statement
+hi def link CocInfoSign           Special
+hi def link CocWarningSign        WarningMsg
 hi def link CocCodeLens           Special
+hi def link CocListSearch         Special
+hi def link CocMenuSel            PmenuSel
+hi def link CocSearch             Special
 
 hi def link NERDTreeExecFile      Error
 hi def link htmlH1                Statement

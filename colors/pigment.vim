@@ -82,7 +82,10 @@ hi SpellLocal    cterm=underline  ctermbg=NONE  ctermfg=NONE
 hi Comment       cterm=NONE  ctermbg=NONE  ctermfg=10
 
 hi Constant      cterm=NONE  ctermbg=NONE  ctermfg=06
-" + Number + Boolean + Float
+" + Boolean
+
+hi Number        cterm=NONE  ctermbg=NONE  ctermfg=05
+hi def link Float Number
 
 hi String        cterm=NONE  ctermbg=NONE  ctermfg=02
 hi Character     cterm=NONE  ctermbg=NONE  ctermfg=02
@@ -101,8 +104,8 @@ hi Type          cterm=NONE  ctermbg=NONE  ctermfg=04
 
 hi Special       cterm=NONE  ctermbg=NONE  ctermfg=05
 " + SpecialChar + SpecialComment
-hi Delimiter     cterm=NONE  ctermbg=NONE  ctermfg=11
-hi Tag           cterm=NONE  ctermbg=NONE  ctermfg=11
+hi Delimiter     cterm=NONE  ctermbg=NONE  ctermfg=04
+hi Tag           cterm=NONE  ctermbg=NONE  ctermfg=12
 hi Debug         cterm=NONE  ctermbg=NONE  ctermfg=11
 
 hi Underlined    cterm=underline  ctermbg=NONE  ctermfg=NONE
@@ -118,12 +121,14 @@ hi def link jsFutureKeys          Keyword
 hi def link jsTemplateBraces      Special
 hi def link jsxCloseString        PreProc
 hi def link jsRegexpString        WarningMsg
-
 hi def link jsFlowDefinition      Constant
 hi def link jsFlowObject          Normal
 hi def link jsFlowType            Constant
 hi def link jsFlowTypeStatement   Typedef
 hi def link jsFlowTypeValue       Typedef
+hi def link htmlH1                Statement
+
+hi def link CopilotSuggestion     NonText
 
 hi def link CocErrorSign          Error
 hi def link CocHintSign           Statement
@@ -135,4 +140,7 @@ hi def link CocMenuSel            PmenuSel
 hi def link CocSearch             Special
 
 hi def link NERDTreeExecFile      Error
-hi def link htmlH1                Statement
+hi def link NvimTreeRootFolder    Directory
+hi def link TelescopeBorder       VertSplit
+hi def link TelescopeBorder       Constant
+hi TelescopePromptTitle ctermfg=07

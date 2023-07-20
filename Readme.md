@@ -1,6 +1,6 @@
 <img src="https://mkitt.net/apple-touch-icon.png" width="80px" height="80px" />
 
-# Pigment
+# Pigment (Deprecated)
 
 A Vim color scheme tuned to work with Apple's Terminal.app profiles.
 
